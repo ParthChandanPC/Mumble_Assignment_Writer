@@ -6,6 +6,6 @@ Goals:
 3. Generate "well - formatted" random text.
 
 Progress:
-1. 
+1. Implemented login page for both those who are already registered and those who are new users along with otp verification page but sending otp to mobile number was not possible as it is paid.
 2. 
 3. Successful generation of random text, not well formatted so far. but SOON!
