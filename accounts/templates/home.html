@@ -1,0 +1,24 @@
+{% extends "base.html"%} {% block content %}
+
+<div class="welcome">
+    <div class="ideal">
+        <div class="card-body">
+            <h3 class="card-title text-center">Welcome, User {{request.user.username}}</h3>
+        </div>
+    </div>
+</div>
+</div>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<div class="uploader">
+    <h4>Upload a PDF file </h4>
+    <form class="form" method="post">
+        <div class="file-upload-wrapper" data-text="Select your file!">
+            <input name="file-upload-field" type="file" class="file-upload-field" value="">
+        </div>
+        <button type="submit" class="sub">Submit</button>
+    </form>
+</div>
+{% endblock %}
